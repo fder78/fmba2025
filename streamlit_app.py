@@ -11,8 +11,9 @@ def load_stock_prices(tickers, start_date, end_date):
 
 
 # Title
+st.subheader("Personal Project Example")
+st.subheader("KAIST Computer Programming in Finance 2025", divider="gray")
 st.title("Portfolio Dashboard")
-st.subheader("KAIST FMBA 2025 - Personal Project Example", divider=True)
 
 # Sidebar Inputs
 tickers = st.sidebar.multiselect(
