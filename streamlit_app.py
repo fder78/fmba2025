@@ -17,7 +17,7 @@ st.title("Portfolio Dashboard")
 
 # Sidebar Inputs
 tickers = st.sidebar.multiselect(
-    "WEnter Stock Tickers",
+    "Enter Stock Tickers",
     ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", 
      "META", "TSLA", "TSM", "BRK-A", "AVGO"],
     ["AAPL", "NVDA"],
